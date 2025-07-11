@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con Nosotros - Bella Bee Cosmetics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="img/Logo.png" alt="Crema Facial de Miel" style="width: 100px; height: 70px;" />
+                </div>
+                <ul class="nav-menu" id="nav-menu" style="margin: 10px;">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="acerca-de.html" class="nav-link">Acerca de</a></li>
+                    <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+                    <li><a href="testimonios.html" class="nav-link">Testimonios</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="economia-circular.html" class="nav-link">Economía Circular</a></li>
+                    <li><a href="partners.html" class="nav-link">Partners</a></li>
+                    <li><a href="trabaja-con-nosotros.html" class="nav-link active">Trabaja con Nosotros</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Trabaja con Nosotros</h1>
+                <p class="page-subtitle">Únete a nuestro equipo y sé parte del cambio hacia la belleza sostenible</p>
+            </div>
+        </section>
+
+        <section class="why-work-with-us">
+            <div class="container">
+                <h2 class="section-title">¿Por qué trabajar en Bella Bee?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🌱</div>
+                        <h3>Propósito Significativo</h3>
+                        <p>Trabaja en una empresa que realmente hace la diferencia para el planeta y las personas</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">📈</div>
+                        <h3>Crecimiento Profesional</h3>
+                        <p>Oportunidades de desarrollo y capacitación continua en un sector en crecimiento</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🤝</div>
+                        <h3>Ambiente Colaborativo</h3>
+                        <p>Equipo diverso, inclusivo y comprometido con valores compartidos</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">⚖️</div>
+                        <h3>Balance Vida-Trabajo</h3>
+                        <p>Horarios flexibles y políticas que respetan tu bienestar personal</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">💰</div>
+                        <h3>Compensación Competitiva</h3>
+                        <p>Salarios justos, bonos por desempeño y beneficios adicionales</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🎓</div>
+                        <h3>Formación Continua</h3>
+                        <p>Cursos, talleres y certificaciones para tu desarrollo profesional</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="job-openings">
+            <div class="container">
+                <h2 class="section-title">Vacantes Disponibles</h2>
+                <div class="jobs-grid">
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h3>Promotor/a Ecológico/a</h3>
+                            <span class="job-type">Part Time / Eventos</span>
+                        </div>
+                        <div class="job-details">
+                            <p><strong>Ubicación:</strong> Santiago, Valparaíso y regiones (Presencial)</p>
+                            <p><strong>Experiencia:</strong> Ideal experiencia previa en atención al cliente o
+                                activaciones</p>
+                            <p><strong>Descripción:</strong> Representa a Bella Bee en ferias y actividades de difusión.
+                                Inspira a otros con tu pasión por lo natural.</p>
+                            <ul class="job-requirements">
+                                <li>Buena comunicación y actitud proactiva</li>
+                                <li>Interés por la cosmética natural y sustentabilidad</li>
+                                <li>Disponibilidad fines de semana</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" onclick="openJobApplication('promotor-ecologico')">Postular
+                            Ahora</button>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h3>Community Manager Verde</h3>
+                            <span class="job-type">Medio Tiempo / Freelance</span>
+                        </div>
+                        <div class="job-details">
+                            <p><strong>Ubicación:</strong> Remoto (Chile)</p>
+                            <p><strong>Experiencia:</strong> 1-3 años en gestión de redes</p>
+                            <p><strong>Descripción:</strong> Gestiona nuestras redes sociales con contenido inspirador,
+                                sustentable y alineado con nuestra comunidad.</p>
+                            <ul class="job-requirements">
+                                <li>Creatividad y manejo de plataformas (Instagram, TikTok, etc.)</li>
+                                <li>Redacción con enfoque ecológico</li>
+                                <li>Edición básica de imágenes y video</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" onclick="openJobApplication('community-verde')">Postular
+                            Ahora</button>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h3>Técnico/a en Laboratorio Natural</h3>
+                            <span class="job-type">Tiempo Completo</span>
+                        </div>
+                        <div class="job-details">
+                            <p><strong>Ubicación:</strong> Santiago (Presencial)</p>
+                            <p><strong>Experiencia:</strong> 2+ años en formulación o control de calidad</p>
+                            <p><strong>Descripción:</strong> Apoya el desarrollo de productos naturales, seguros y
+                                eficaces dentro de nuestro laboratorio.</p>
+                            <ul class="job-requirements">
+                                <li>Título técnico o profesional en química o carrera afín</li>
+                                <li>Experiencia en productos cosméticos o naturales</li>
+                                <li>Rigurosidad y compromiso con procesos limpios</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" onclick="openJobApplication('laboratorio-natural')">Postular
+                            Ahora</button>
+                    </div>
+
+                    <div class="job-card">
+                        <div class="job-header">
+                            <h3>Asesor/a de Venta Sustentable</h3>
+                            <span class="job-type">Part Time / Full Time</span>
+                        </div>
+                        <div class="job-details">
+                            <p><strong>Ubicación:</strong> Chile (presencial y remoto)</p>
+                            <p><strong>Experiencia:</strong> 1-3 años en atención o ventas</p>
+                            <p><strong>Descripción:</strong> Asesora a nuestros clientes entregando información clara y
+                                honesta sobre nuestros productos naturales.</p>
+                            <ul class="job-requirements">
+                                <li>Empatía y habilidades comunicacionales</li>
+                                <li>Interés por el bienestar y el consumo consciente</li>
+                                <li>Conexión con nuestros valores ecológicos</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary" onclick="openJobApplication('venta-sustentable')">Postular
+                            Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="application-section">
+            <div class="container">
+                <div class="application-content">
+                    <h2>¿No ves tu puesto ideal?</h2>
+                    <p>
+                        Siempre estamos buscando personas con propósito. Si compartes nuestros valores y quieres ser
+                        parte de Bella Bee,
+                        mándanos tu CV y cuéntanos cómo podrías aportar.
+                    </p>
+                    <button class="btn btn-secondary" onclick="openGeneralApplication()">Enviar Postulación
+                        Espontánea</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal para aplicaciones en Chile -->
+        <div id="application-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2 id="modal-title">Postular a Vacante</h2>
+                <form id="job-application-form" class="application-form">
+                    <input type="hidden" id="job-position" name="position">
+
+                    <div class="form-group">
+                        <label for="applicant-name">Nombre completo *</label>
+                        <input type="text" id="applicant-name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="applicant-email">Correo electrónico *</label>
+                        <input type="email" id="applicant-email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="applicant-phone">Teléfono (con código de área) *</label>
+                        <input type="tel" id="applicant-phone" name="phone" placeholder="+56 9 1234 5678" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="applicant-cv">Currículum (PDF) *</label>
+                        <input type="file" id="applicant-cv" name="cv" accept=".pdf" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cover-letter">Carta de Presentación</label>
+                        <textarea id="cover-letter" name="coverLetter" rows="4"
+                            placeholder="Cuéntanos por qué te interesa formar parte de Bella Bee..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="salary-expectation">Expectativa Salarial (opcional)</label>
+                        <input type="text" id="salary-expectation" name="salary"
+                            placeholder="Ej: $600.000 - $800.000 CLP">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Postulación</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🐝 Bella Bee</h3>
+                    <p>Cosmética natural y sostenible</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘 Facebook</a>
+                        <a href="#" class="social-link">📷 Instagram</a>
+                        <a href="#" class="social-link">💬 WhatsApp</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="acerca-de.html">Acerca de</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📧 info@bellabee.com</p>
+                    <p>📱 +569 12345678</p>
+                    <p>🕒 Lun-Vie: 9:00-18:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bella Bee Cosmetics. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
